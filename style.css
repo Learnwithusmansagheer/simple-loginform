@@ -1,0 +1,67 @@
+body{
+    background-image: url(images/back2.jpg);
+    background-position: center;
+    
+}
+#logo{
+    width: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255 0.2);
+   
+}
+#navbarSupportedContent{
+    margin-left:5%;
+}
+#setting1 li{
+background-color: white;
+border-radius: 5px;
+margin: 5px;
+}
+#setting1 li:hover{
+    background-color: rgb(224, 139, 27);
+    transition: 4s linear ease-in-out;
+
+}
+.form{
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px 5px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 300px; /* Adjust width as needed */
+}
+
+.form label,
+.form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.form input {
+    width: 100%;
+
+    width: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#submitbutton{
+    width: 100px;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: center;
+}
+#submitbutton:hover{
+    background-color: rgb(255, 255, 255,0.2);
+    transform: translate(1.5px);
+}
